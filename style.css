@@ -1,0 +1,51 @@
+body {
+    background: coral;
+    color: white;
+    font-family: 'Fira Code', monospace;
+}
+
+.typewriter {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+
+.typewriter #line-1 {
+    animation-delay: 3.5s;
+}
+
+.typewriter h1 {
+    border-right: 1px solid white;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 600px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 2s steps(29) 1s 1 normal both;
+}
+
+.typewriter #line-1 {
+    border-right: 1px solid white;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 2s steps(29) 1s 1 normal both;
+}
+
+@keyframes typewriter {
+    0% {
+        width: 0;
+        border-right: none;
+    }
+    0.1% {
+        border-right: 1px solid rgb(220, 220, 220);
+    }
+    99.9% {
+        border-right: 1px solid rgb(220, 220, 220);
+    }
+    100% {
+        border: none;
+    }
+}
